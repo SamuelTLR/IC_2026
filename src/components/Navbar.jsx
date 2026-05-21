@@ -1,12 +1,12 @@
 import { useNavigate, BrowserRouter, Routes, Route  } from 'react-router-dom';
 import "./Navbar.css";
-import FundoEletrico from "./Bit.jsx";
+import FundoEletrico from "./FundoEletrico.jsx";
 
 function Navbar() {
     const navigate = useNavigate();
 
     const buttonIniciar = () => {
-        navigate('/level-1');
+        navigate('/levels/level-1');
     };
 
     return (
