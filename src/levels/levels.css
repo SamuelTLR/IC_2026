@@ -12,7 +12,6 @@
 }
 
 .main-title {
-  font-family: 'Inter', system-ui, sans-serif !important;
   font-size: 3.5rem;
   font-weight: 800;
   color: #ffffff;
@@ -30,9 +29,7 @@
   margin-bottom: 2rem;
 }
 
-/* Texto formatado para leitura fluida */
 .texto {
-  font-family: system-ui, sans-serif;
   white-space: pre-wrap;
   font-size: 1.1rem;
   line-height: 1.75; /* Espaçamento entre linhas essencial para leitura */
@@ -67,6 +64,90 @@
     justify-content: center;
 }
 
-.title-container {
-  background-color: gainsboro;
+.windows-xp-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #5a7edc; 
+  padding: 20px;
+}
+
+.windows-xp {
+  background-color: #ece9d8;
+  border: 3px solid #002e94;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.4);
+  width: 100%;
+  max-width: 500px;
+  user-select: none;
+}
+
+.windows-bar {
+  background: linear-gradient(to bottom, #518ef5 0%, #245edb 9%, #1952ce 100%);
+  padding: 6px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #002e94;
+}
+
+.bar-text-xp {
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.bar-controls-xp {
+  display: flex;
+  gap: 3px;
+}
+
+.control-btn-xp.min-max {
+  background: linear-gradient(to bottom, #4482f6 0%, #1d59db 100%);
+}
+
+.control-btn-xp.close {
+  background: linear-gradient(to bottom, #e0430a 0%, #b82a00 100%);
+  border-color: #7a1a00;
+  font-size: 13px;
+}
+
+.menu-content-xp {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.welcome-text-xp {
+  text-align: center;
+  background: #ffffff;
+  border: 1px solid #919b9c;
+  padding: 20px;
+  width: 100%;
+  box-shadow: inset 1px 1px 3px rgba(0,0,0,0.1);
+}
+
+.welcome-text-xp h1 {
+  color: #245edb;
+  margin: 0 0 10px 0;
+  font-size: 28px;
+}
+
+.welcome-text-xp h2 {
+  color: #4c4c4c;
+  font-size: 14px;
+  margin: 0;
+  font-weight: normal;
+}
+
+.main-button-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
 }

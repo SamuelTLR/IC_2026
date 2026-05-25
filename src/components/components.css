@@ -13,16 +13,30 @@
 }
 
 .btn_menu {
-  width: 20rem;
-  height: 5rem;
-  display: inline-block;
-  padding: 10px 20px;
-  border-radius: 5px;
-  font-size: large;
+  background: linear-gradient(to bottom, #ffffff 0%, #eae8e0 12%, #dfdbce 85%, #efebde 100%);
+  border: 1px solid #003c74;
+  border-radius: 3px;
+  color: #000000;
+  font-family: "Tahoma", sans-serif;
+  font-size: 14px;
   font-weight: bold;
-  text-align: center;
+  padding: 7px 25px;
   cursor: pointer;
-  color:rgb(255, 255, 255);
-  background-color: #150bde;
+  box-shadow: inset -1px -1px 1px rgba(0,0,0,0.1), inset 1px 1px 1px #fff;
+  transition: all 0.1s ease;
+  outline: none;
 }
 
+
+.btn_menu:hover {
+  background: linear-gradient(to bottom, #fff6e5 0%, #ffeed0 12%, #ffdd99 85%, #ffe7ba 100%);
+  border-color: #e59c00;
+  box-shadow: inset -1px -1px 1px rgba(0,0,0,0.1), inset 1px 1px 1px #fff;
+}
+
+.btn_menu:active {
+  background: linear-gradient(to bottom, #cdcad5 0%, #e3e3e3 100%);
+  border-color: #003c74;
+  box-shadow: inset 1px 1px 2px rgba(0,0,0,0.3);
+  padding: 8px 24px 6px 26px; 
+}
