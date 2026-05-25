@@ -1,25 +1,3 @@
-.content-card {
-  background: rgba(15, 23, 42, 0.8); 
-  backdrop-filter: blur(12px);         
-  -webkit-backdrop-filter: blur(12px); 
-  border: 1px solid rgba(255, 255, 255, 0.1); 
-  border-radius: 16px;
-  padding: 2.5rem;
-  max-width: 700px; 
-  width: 100%;
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
-  margin: 2rem auto; 
-}
-
-.main-title {
-  font-size: 3.5rem;
-  font-weight: 800;
-  color: #ffffff;
-  letter-spacing: -0.025em;
-  margin-bottom: 0.5rem;
-  text-shadow: 0 0 20px rgba(34, 197, 94, 0.3); 
-}
-
 
 .subtitle {
   font-size: 2.25rem;
@@ -29,33 +7,51 @@
   margin-bottom: 2rem;
 }
 
+.xp-page-title {
+  color: #245edb;
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px dashed #ece9d8;
+  padding-bottom: 10px;
+}
+
 .texto {
   white-space: pre-wrap;
-  font-size: 1.1rem;
-  line-height: 1.75; /* Espaçamento entre linhas essencial para leitura */
-  color: #e2e8f0; /* Branco quebrado que não agride os olhos */
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: #333333; 
   text-align: justify;
+  margin-bottom: 1.5rem;
 }
 
 .images-container {
   display: flex;
-  align-items: center;
   justify-content: center;
-  margin: 1rem 0;
+  margin: 1.5rem 0;
+  background-color: #ece9d8; 
+  padding: 10px;
+  border: 1px solid #919b9c;
 }
 
 .texto strong {
-  color: #00ff88;
-  background-color: rgba(255, 255, 255, 0.1);
-  padding: 2px 6px;
-  border-radius: 4px;
+  color: #ffffff;
+  background-color: #316ac5; 
+  padding: 1px 4px;
+  border-radius: 2px;
+  font-weight: bold;
 }
 
-.buttons-container {
+.buttons-container-xp {
   display: flex;
+  width: 100%;
+  justify-content: space-between;
   align-items: center;
-  justify-content:space-between;
-  margin: 2rem;
+  padding: 15px 20px;
+  background-color: #ece9d8; 
+  border: 1px solid #919b9c;
+  border-top: none;
 }
 
 .main-button-container {
@@ -80,7 +76,7 @@
   border-top-right-radius: 8px;
   box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.4);
   width: 100%;
-  max-width: 500px;
+  max-width: 800px;
   user-select: none;
 }
 
@@ -115,7 +111,7 @@
   font-size: 13px;
 }
 
-.menu-content-xp {
+.content-xp {
   padding: 25px;
   display: flex;
   flex-direction: column;
@@ -150,4 +146,11 @@
   display: flex;
   justify-content: center;
   margin-top: 10px;
+}
+
+.xp-image {
+  width: 100%;
+  max-width: 25rem;
+  height: auto;
+  border: 1px solid #ffffff; /* Linha de brilho interna */
 }

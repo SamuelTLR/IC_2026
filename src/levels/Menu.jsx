@@ -14,7 +14,7 @@ function Menu() {
                             <button className="control-btn-xp close">X</button>
                         </div>
                     </div>
-                    <div className='menu-content-xp'>
+                    <div className='content-xp'>
                         <div className="welcome-text-xp">
                             <h1>A História da Computação</h1>
                             <h2>CEFET-MG • Samuel Tomazela • 2026</h2>
