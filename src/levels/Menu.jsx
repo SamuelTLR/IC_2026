@@ -16,7 +16,7 @@ function Menu() {
                     </div>
                     <div className='menu-content-xp'>
                         <div className="welcome-text-xp">
-                            <h1>Computer Bits</h1>
+                            <h1>A História da Computação</h1>
                             <h2>CEFET-MG • Samuel Tomazela • 2026</h2>
                         </div>
 
