@@ -1,8 +1,9 @@
 import { useNavigate, BrowserRouter, Routes, Route  } from 'react-router-dom';
-import "./Navbar.css";
+import "./Menu.css";
 import FundoEletrico from "./FundoEletrico.jsx";
+import Button from './Button.jsx';
 
-function Navbar() {
+function Menu() {
     const navigate = useNavigate();
 
     const buttonIniciar = () => {
@@ -12,7 +13,6 @@ function Navbar() {
     return (
         <>
             <FundoEletrico/>
-
             <div className="Titulo">
                 <h1>
                     Computer Bits
@@ -21,12 +21,12 @@ function Navbar() {
             </div>
 
             <div className="Botoes">
-                <div className='Iniciar' onClick={buttonIniciar}>
+                <Button onClick={buttonIniciar}>
                     Iniciar
-                </div>
+                </Button>
             </div>
         </>
     )
 }
     
-export default Navbar;
+export default Menu;

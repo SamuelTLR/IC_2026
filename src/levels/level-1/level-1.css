@@ -1,5 +1,4 @@
 .content-card {
-  /* Escurecemos o azul para dar contraste real com o texto branco */
   background: rgba(15, 23, 42, 0.8); 
   backdrop-filter: blur(12px);         
   -webkit-backdrop-filter: blur(12px); 
@@ -7,7 +6,7 @@
   border-radius: 16px;
   padding: 2.5rem;
   width: 1200px;
-  max-width: 1200px; /* Um pouco mais largo para o bloco de texto */
+  max-width: 1200px; 
   width: 100%;
   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
   margin: 2rem auto; /* Centraliza o card na tela */
@@ -22,20 +21,33 @@
   margin-bottom: 0.5rem;
 }
 
-/* Subtítulo com cor ligeiramente atenuada para criar hierarquia */
 .subtitle {
   font-size: 1.65rem;
   padding: 2px;
-  color: #94a3b8; /* Cinza azulado */
-  font-weight: 400;
+  color: #94a3b8; 
+  font-weight: 400; 
   margin-bottom: 2rem;
 }
 
-/* Texto formatado para leitura fluida */
+
 .texto {
   font-family: system-ui, sans-serif;
   font-size: 1.4rem;
-  line-height: 1.75; /* Espaçamento entre linhas essencial para leitura */
+  line-height: 1.75; 
   color: #e2e8f0; 
   text-align: justify;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.imagem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  justify-content: center;
 }

@@ -4,15 +4,18 @@ import heroImg from './assets/hero.png'
 
 
 import './App.css'
-import Navbar from './components/Navbar'
-import Level1 from './levels/level-1'
+import Menu from './components/Menu.jsx'
+import Level1 from './levels/level-1/level-1.jsx'
+import Minigame1 from './levels/level-1/minigame.jsx'
+import FundoEletrico from './components/FundoEletrico.jsx'
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Navbar />} />
+        <Route path="/" element={<Menu />} />
         <Route path="/levels/level-1" element={<Level1 />} />
+        <Route path="/levels/level-1/minigame" element={<Minigame1/>}/>
       </Routes>
     </BrowserRouter>
   )

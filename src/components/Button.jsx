@@ -1,10 +1,11 @@
+import "./components.css"
+import React from "react";
 
-
-function Button() {
+function Button({children, onClick, variant='default'}) {
     return (
-        <div>
-            
-        </div>
+        <button className={variant} onClick={onClick}>
+            {children}
+        </button>
     );
 }
 

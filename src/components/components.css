@@ -1,0 +1,18 @@
+.default {
+    width: 400px;
+    height: 100px;
+    color: white;
+    background-color: #1784e3;
+    margin: 20px 10px;
+    border-radius: 20px;
+    border: 2px solid #fff;
+
+    text-align: center;
+    font-size: 2rem;
+    
+
+    display: flex;
+    align-items: center;        
+    justify-content: center;
+    cursor: pointer;
+}
