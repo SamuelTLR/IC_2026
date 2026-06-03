@@ -69,6 +69,17 @@
   padding: 20px;
 }
 
+.windows-xp-box {
+  background-color: #ece9d8;
+  border: 3px solid #002e94;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.4);
+  width: 100%;
+  max-width: 1200px;
+  user-select: none;
+}
+
 .windows-xp {
   background-color: #ece9d8;
   border: 3px solid #002e94;

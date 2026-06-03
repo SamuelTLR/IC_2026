@@ -8,7 +8,7 @@ function Introduction_1() {
     <div className="windows-xp-container"> 
       <div className="windows-xp">
         <div className="windows-bar">
-          <span className="bar-text-xp">Início da Computação - A jornada dos Bits!</span>
+          <span className="bar-text-xp">Início da Computação - A história dos bits!</span>
           <div className="bar-controls-xp">
             <button className="control-btn-xp min-max">_</button>
             <button className="control-btn-xp min-max">□</button>

@@ -40,3 +40,17 @@
   box-shadow: inset 1px 1px 2px rgba(0,0,0,0.3);
   padding: 8px 24px 6px 26px; 
 }
+
+.interactive-image {
+  width: 300px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  cursor: ponter;
+}
+
+.interactive-image.hidden {
+  cursor: none;
+  border: 2px solid red;
+}
